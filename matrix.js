@@ -36,6 +36,8 @@ function resizeCanvasOffscreen(setWidth, setHeight) {
 		return;
 	canvas.width = setWidth;
 	canvas.height = setHeight;
+	context.fillStyle = 'rgb(0, 0, 0)';
+	context.fillRect(0, 0, canvas.width, canvas.height);
 }
 
 const draw = () => {
