@@ -1,0 +1,14 @@
+:root {
+    --ejm-grey: #1d1c1c;
+}
+
+body {
+    background-color: var(--ejm-grey);
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
