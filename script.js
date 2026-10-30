@@ -14,7 +14,6 @@ function renderMatrixRain() {
 }
 
 function resizeCanvas() {
-	let canvas = document.getElementById('MatrixRain');
 	matrixWorker.postMessage({command: "resizeCanvasOffscreen", payload: {width: window.innerWidth, height: window.innerHeight}});
 }
 
